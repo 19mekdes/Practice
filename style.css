@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock-container {
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    padding: 40px 60px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+}
+
+.clock {
+    text-align: center;
+}
+
+#time {
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+#date {
+    font-size: 1.2rem;
+    color: rgba(255,255,255,0.8);
+    margin-top: 10px;
+}
