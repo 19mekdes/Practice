@@ -14,11 +14,11 @@ body {
 }
 
 .clock-container {
-    background: rgba(255,255,255,0.1);
+    background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     padding: 40px 60px;
     border-radius: 20px;
-    box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
 }
 
 .clock {
@@ -30,11 +30,11 @@ body {
     color: #fff;
     font-weight: 700;
     letter-spacing: 3px;
-    text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 #date {
     font-size: 1.2rem;
-    color: rgba(255,255,255,0.8);
+    color: rgba(255, 255, 255, 0.8);
     margin-top: 10px;
 }
